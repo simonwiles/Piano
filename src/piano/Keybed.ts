@@ -1,4 +1,5 @@
-import { Gain, ToneAudioBuffers, ToneBufferSource } from 'tone'
+import * as Tone from 'tone'
+const { Gain, ToneAudioBuffers, ToneBufferSource } = Tone
 import { PianoComponent, PianoComponentOptions, UrlsMap } from './Component'
 import { getReleasesUrl } from './Salamander'
 import { randomBetween } from './Util'

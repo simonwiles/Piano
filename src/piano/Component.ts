@@ -1,4 +1,5 @@
-import { Param, ToneAudioNode, Unit, Volume } from 'tone'
+import * as Tone from 'tone'
+const { Param, ToneAudioNode, Unit, Volume } = Tone
 
 type ToneAudioNodeOptions = import('tone/build/esm/core/context/ToneAudioNode').ToneAudioNodeOptions
 

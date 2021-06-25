@@ -1,4 +1,5 @@
-import { Sampler, ToneAudioNode } from 'tone'
+import * as Tone from 'tone'
+const { Sampler, ToneAudioNode } = Tone
 import { PianoComponentOptions, UrlsMap } from './Component'
 import { getNotesUrl } from './Salamander'
 

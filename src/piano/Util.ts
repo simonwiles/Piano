@@ -1,5 +1,6 @@
 // import * as Tone from '../node_modules/tone/Tone'
-import { Frequency, intervalToFrequencyRatio, ToneAudioBuffer, ToneBufferSource } from 'tone'
+import * as Tone from 'tone'
+const { Frequency, intervalToFrequencyRatio, ToneAudioBuffer, ToneBufferSource } = Tone
 
 export function noteToMidi(note: string): number {
 	return Frequency(note).toMidi()

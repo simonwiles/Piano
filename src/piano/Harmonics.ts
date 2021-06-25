@@ -1,4 +1,5 @@
-import { Midi, Sampler } from 'tone'
+import * as Tone from 'tone'
+const { Midi, Sampler } = Tone
 import { PianoComponent, PianoComponentOptions, UrlsMap } from './Component'
 import { getHarmonicsInRange, getHarmonicsUrl, inHarmonicsRange } from './Salamander'
 import { randomBetween } from './Util'

@@ -1,4 +1,5 @@
-import { Midi } from 'tone'
+import * as Tone from 'tone'
+const { Midi } = Tone
 import { PianoComponent, PianoComponentOptions } from './Component'
 import { getNotesInRange, velocitiesMap } from './Salamander'
 import { PianoString } from './String'
